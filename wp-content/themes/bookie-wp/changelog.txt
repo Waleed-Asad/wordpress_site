@@ -1,0 +1,21 @@
+1.2.1
+updated: Visual Composer 4.11.2.1
+
+1.2.0
+added: option to change basic color&background on content, header, footer
+added: option to change header logo height from 40 to 120px
+added: option to change "Detail" and "Buy" text on product list
+added: option to change text on book search section
+updated: Visual Composer 4.11.1
+updated: TGMPA message should be dismissable
+fixed: dropdown menu issue on Chrome
+fixed: Bookie child theme should use "bookie-wp" textdomain
+fixed: minor customizer issue
+
+1.1.3
+fixed: Missing Text Domain
+updated: Overide woocommerce template version
+updated: Visual Composer Plugin v4.10
+
+1.1.2
+NEW RELEASE

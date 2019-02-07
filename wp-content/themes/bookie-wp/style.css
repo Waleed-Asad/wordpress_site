@@ -1,0 +1,76 @@
+/*
+Theme Name: Bookie WP 
+Theme URI: http://toko.press/
+Author: TokoPress
+Author URI: http://toko.press/
+Description: WooCommerce WordPress Theme For Bookstore
+Version: 1.2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+Text Domain: bookie-wp
+*/
+.woocommerce.toko-carousel .owl-carousel .owl-controls .owl-nav > div
+{
+    position: absolute;
+    top: calc(50% - 15px);
+    background:#fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 25%;
+
+    
+}
+.woocommerce.toko-carousel .owl-carousel .owl-controls .owl-nav >  .owl-prev {
+    left:-7px;
+    animation: left 1000ms ease infinite;
+    -webkit-animation: left 1000ms ease infinite;
+    -moz-animation: left 1000ms ease infinite;
+    -ms-animation: left 1000ms ease infinite;
+    -o-animation: left 1000ms ease infinite;
+}
+.woocommerce.toko-carousel .owl-carousel .owl-controls .owl-nav >  .owl-next {
+    right:-7px;
+    animation: right 1000ms ease infinite;
+    -webkit-animation: right 1000ms ease infinite;
+    -moz-animation: right 1000ms ease infinite;
+    -ms-animation: right 1000ms ease infinite;
+    -o-animation: right 1000ms ease infinite;
+}
+
+@keyframes right {
+    0% {right:-7px;}
+    50% {right:0px;}
+    100% {right:-7px;}
+  }
+
+@keyframes left {
+    0% {left:-7px;}
+    50% {left:0px;}
+    100% {left:-7px;}
+  }
+
+
+
+  .woocommerce.columns-5 ul.products li.product .product-price-box span.price {
+      width:100%;
+      max-width: 100%;
+  }
+  
+  .woocommerce.columns-5 ul.products li.product .product-price-box span.price del span {
+    font-size: 12px;
+  }
+
+  .woocommerce.columns-5 ul.products li.product .product-price-box span.price del {
+    display:inline-block;
+  }
+  .woocommerce ul.products li.product a img {
+    object-fit: cover;
+    height: 190px;
+  }
+
+  h2.woocommerce-loop-product__title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
